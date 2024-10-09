@@ -25,6 +25,6 @@ void test_validate_my_username()
     char* config_username = malloc_username_from_conf_file();
 
     TEST_ASSERT_EQUAL_STRING_MESSAGE(hardcoded_username, config_username, "Usernames do not match!");
-    free(config_username);
+   //free(config_username);
     //TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
 }
